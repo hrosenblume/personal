@@ -101,9 +101,9 @@
   height: 50px;
   overflow: scroll;
 }
-@media (min-width: 768px) {
+@media (min-width: 420px) {
   .modal-dialog {
-    width: 500px;
+    width: 420px;
     margin: 30px auto;
   }
   .modal-content {
