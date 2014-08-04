@@ -24,9 +24,9 @@
 		</noscript>
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<script> 
-			$(function() {$("#loadModal").load("modals/atl-modal.html");}); 
+			//$(function() {$("#loadModal").load("modals/atl-modal.html");}); 
 			
-			/*var content;
+			var content;
 			$.get('modals/atl-modal.html', function(data){
 			    content = data;
 			    $('#loadModal').prepend(content);
@@ -38,7 +38,7 @@
 			$.get('modals/dtown-modal.html', function(data){
 			    content = data;
 			    $('#loadModal').prepend(content);
-			});*/
+			});
 			//need to figure out how to append
 			//$(function() {$("#loadModal").load("/modals/ny-modal.html");}); 
 			//$(function() {$("#loadModal").load("/modals/dtown-modal.html");}); 
@@ -61,35 +61,7 @@
 								<span class='last_name'>Rosenblume</span>
 							</div>
 						</a>
-					<!-- Nav -->
-						
-						<nav id="nav">
-							<ul>
-								<li class="current"><a href="index.html">Home</a></li>
-								<li>
-									<a href="">Dropdown</a>
-									<ul>
-										<li><a href="#">Lorem ipsum dolor</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
-										<li>
-											<a href="">Phasellus consequat</a>
-											<ul>
-												<li><a href="#">Magna phasellus</a></li>
-												<li><a href="#">Etiam dolore nisl</a></li>
-												<li><a href="#">Veroeros feugiat</a></li>
-												<li><a href="#">Nisl sed aliquam</a></li>
-												<li><a href="#">Dolore adipiscing</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Veroeros feugiat</a></li>
-									</ul>
-								</li>
-								<li><a href="left-sidebar.html">Left Sidebar</a></li>
-								<li><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
-							</ul>
-						</nav>
+
 						
 					<!-- Banner -->
 						<section id="banner">
@@ -122,7 +94,7 @@
 											<h2>NEW YORK</h2>
 										</header>
 										<p>
-											Fourth generation New Yorker
+											<span data-toggle="modal"data-target="#nyModal" class="hlight">Fourth generation New Yorker.</span>
 											I will not be the first to leave for California. <br>
 											~~ Long Live Silicon Alley ~~
 										</p>
