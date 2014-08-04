@@ -325,7 +325,7 @@
 			input[type="reset"]:hover,
 			.button:hover
 			{
-				background: #e53359;
+				background: #87B1D6;
 			}
 			
 			input[type="button"]:active,
@@ -892,4 +892,18 @@
 
 .hlight:hover {
 	background-color: #ffc31c;
+}
+
+/* This is a hack to fix the modal */
+.modal-title {
+	font-size: 2em;
+}
+
+.modal-image {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	max-height: 400px;
 }
