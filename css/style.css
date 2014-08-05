@@ -11,7 +11,6 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
-
 	body
 	{
 		background: #252122;
@@ -850,71 +849,77 @@
 /*********************************************************************************/
 /* Custom                                                                        */
 /*********************************************************************************/
-.name {
-	font-family: lav;
-	color: #252122;
-	display: inline-block;
-	text-align: left;
-	line-height: 5em;
-}
-
-.first_name {
-	font-size: 4em;
-}
-
-.last_name {
-	font-size: 8em;
-}
-
-@media all and (max-width: 480px)  {
 	.name {
-		margin: 1em;
-		line-height: 4em;
+		font-family: lav;
+		color: #252122;
+		display: inline-block;
+		text-align: left;
+		line-height: 5em;
 	}
+
 	.first_name {
-		font-size: 3em;
+		font-size: 4em;
 	}
+
 	.last_name {
-		font-size: 6em;
+		font-size: 8em;
 	}
 
-}
+	@media all and (max-width: 480px)  {
+		.name {
+			margin: 1em;
+			line-height: 4em;
+		}
+		.first_name {
+			font-size: 3em;
+		}
+		.last_name {
+			font-size: 6em;
+		}
 
-@font-face {
-    font-family: lav;
-    src: url(../fonts/lav-reg.otf);
-}
+	}
 
-.hlight {
-	background-color: #eee;
-	cursor: pointer;
-}
+	@font-face {
+	    font-family: lav;
+	    src: url(../fonts/lav-reg.otf);
+	}
 
-.hlight:hover {
-	background-color: #ffc31c;
-}
+	.hlight {
+		background-color: #eee;
+		cursor: pointer;
+	}
 
-/* This is a hack to fix the modal */
-.modal-title {
-	font-size: 2em;
-}
+	.hlight:hover {
+		background-color: #ffc31c;
+	}
 
-.modal-image {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
+	/* This is a hack to fix the modal */
+	.modal-title {
+		font-size: 2em;
+	}
 
-.modal-video {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
+	.modal-image {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 100%;
+	}
 
-@media all and (max-width: 420px)  {
 	.modal-video {
-		width: 100%;
-		height: 285px;
-	}	
-}
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	.upto-border {
+		border-style: solid; 
+		border-width: 1px; 
+		border-color: #0094de;
+	}
+
+	@media all and (max-width: 420px)  {
+		.modal-video {
+			width: 100%;
+			height: 285px;
+		}	
+	}
