@@ -4,7 +4,9 @@ var modals = [
 	"atl-modal",
 	"ny-modal",
 	"nyl-modal",
-	"dtown-modal"
+	"dtown-modal",
+	"upto-modal",
+	"gc-modal"
 ];
 
 for (i = 0; i < modals.length; i++) {
