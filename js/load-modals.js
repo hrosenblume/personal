@@ -6,7 +6,11 @@ var modals = [
 	"nyl-modal",
 	"dtown-modal",
 	"upto-modal",
-	"gc-modal"
+	"gc-modal",
+	"bit-modal",
+	"vybe-modal",
+	"samplify-modal",
+	"noc-modal"
 ];
 
 for (i = 0; i < modals.length; i++) {
