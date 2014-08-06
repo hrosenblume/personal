@@ -10,7 +10,8 @@ var modals = [
 	"bit-modal",
 	"vybe-modal",
 	"samplify-modal",
-	"noc-modal"
+	"noc-modal",
+	"rap-modal"
 ];
 
 for (i = 0; i < modals.length; i++) {

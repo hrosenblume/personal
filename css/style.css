@@ -881,7 +881,17 @@
 
 	@font-face {
 	    font-family: lav;
-	    src: url(../fonts/lav-str.otf);
+	    src: url("../fonts/lav-str.otf");
+	}
+
+	@font-face {
+		font-family: din;
+		src: url("../fonts/din-con.ttf");
+	}
+
+	.genius {
+		font-family: din;
+		font-size: 1.5em;
 	}
 
 	.hlight {
@@ -926,6 +936,6 @@
 
 	.center-button {
 		margin-left: auto;
-    margin-right: auto;
-    display: table;
+	    margin-right: auto;
+	    display: table;
 	}
