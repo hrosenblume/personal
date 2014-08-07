@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -rf ../prod
 mkdir -p ../prod/css
 # mkdir -p ../prod/js
 cp -r ../files ../prod/
